@@ -1,0 +1,23 @@
+/*Taming CSS like Daenerys tamed Drogon, Rhaegal, and Viserion!*/
+
+body {
+	min-height: 100%; /*telling it to be 100% of the page*/
+	margin: 0 auto; /*center*/
+	display: flex; /*flexible containers, give up on being pixel perfect*/
+	justify-content: center;
+	align-items: center; /*specific to flexbox*/
+
+
+
+}
+
+main {
+	width: 240px;
+	height: 240px;
+	border: 1px dashed green;
+	color: green;
+	text-align: center;
+	line-height: 100px;
+
+}
+
